@@ -1,0 +1,70 @@
+/*
+    VARIABLES
+*/
+:root {
+    --border-color: #ccc;
+}
+
+
+/*
+    DOCUMENT
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.button {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0.6em 1em;
+    text-align: center;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #07c;
+}
+
+.bg-grey {
+    background-color: rgb(107, 107, 107);
+}
+
+.bg-grey:hover,
+.bg-grey:focus {
+    background-color: rgb(64, 64, 64);
+}
+
+.bg-red {
+    background-color: rgb(203, 19, 19);
+}
+
+.bg-red:hover,
+.bg-red:focus {
+    background-color: rgb(139, 12, 12);
+}
+
+.bg-green {
+    background-color: rgb(34, 203, 19);
+}
+
+.bg-green:hover,
+.bg-green:focus {
+    background-color: rgb(21, 124, 11);
+}
