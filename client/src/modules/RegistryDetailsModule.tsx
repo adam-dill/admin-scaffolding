@@ -3,6 +3,7 @@ import { useAsync } from '../hooks';
 import { RegistryDto } from "../dtos";
 import { getRegistryById } from '../services/ApiService';
 import { ProductListItem } from "../components";
+import { RegistryStatus } from "../enums";
 
 interface IProps {
     grid: String;
@@ -19,12 +20,16 @@ export default function RegistryDetailsModule({grid, goBack}:IProps) {
         console.log(`editing ${data.id}`);
     };
 
+    const statusButton = data.status.toLowerCase() === RegistryStatus.ACTIVE
+        ? <button className="button bg-red">Deactivate</button>
+        : <button className="button bg-green">Activate</button>;
+
     return (
         <div className="container">
             <button className="button" onClick={() => goBack()}>Back to Search</button>
             <p>{data.firstName} {data.lastName}</p>
             <p>{data.eventType}</p>
-            <button className="button bg-red">Deactivate</button>
+            {statusButton}
             <hr />
             {data.items.map((item, index) => (
                 <div key={index}>
