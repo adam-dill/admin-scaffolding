@@ -1,0 +1,60 @@
+const Registries = [
+    {
+        id: "648dcaf6fc13ae0ed0901531",
+        status: "ACTIVE",
+        firstName: "Tiffany",
+        lastName: "Fife",
+        registryType: "WEDDING",
+        items: [{"id":1,"name":"Gantz: Perfect Answer","wants":11,"has":11},
+        {"id":2,"name":"Charlie Chan's Chance","wants":16,"has":16},
+        {"id":3,"name":"Devil's Double, The","wants":9,"has":7},
+        {"id":4,"name":"Unfinished Sky","wants":3,"has":1}],
+    },
+    {
+        id: "648dcaf6fc13ae0ed0901532",
+        status: "ACTIVE",
+        firstName: "Barbe",
+        lastName: "Pocknoll",
+        registryType: "HOUSEWARMING",
+        items: [{"id":5,"name":"End of the Line, The","wants":4,"has":4},
+        {"id":6,"name":"Salvage","wants":9,"has":6},
+        {"id":7,"name":"In the Time of the Butterflies","wants":11,"has":10},
+        {"id":8,"name":"New Guy, The","wants":7,"has":3},
+        {"id":9,"name":"Hellhounds on My Trail","wants":12,"has":4}],
+    },
+    {
+        id: "648dcaf6fc13ae0ed0901533",
+        status: "DEACTIVE",
+        firstName: "Matt",
+        lastName: "Sealy",
+        registryType: "CELEBRATION",
+        items: [{"id":10,"name":"Underworld U.S.A.","wants":14,"has":12},
+        {"id":11,"name":"Private Life of Henry VIII, The","wants":12,"has":5},
+        {"id":12,"name":"Epic Movie","wants":15,"has":12},
+        {"id":13,"name":"Bethlehem","wants":5,"has":1},
+        {"id":14,"name":"Cold Around the Heart","wants":12,"has":4},
+        {"id":15,"name":"Flight of Fury","wants":14,"has":5}],
+    },
+    {
+        id: "648dcaf6fc13ae0ed0901534",
+        status: "DEACTIVE",
+        firstName: "Belinda",
+        lastName: "Bryer",
+        registryType: "HOUSEWARMING",
+        items: [{"id":16,"name":"Kung Phooey!","wants":13,"has":7},
+        {"id":17,"name":"Word Wars","wants":13,"has":12},
+        {"id":18,"name":"Two Bits","wants":19,"has":13}],
+    },
+    {
+        id: "648dcaf6fc13ae0ed0901535",
+        status: "ACTIVE",
+        firstName: "Broderick",
+        lastName: "Mattinson",
+        registryType: "BABY",
+        items: [],
+    },
+];
+
+module.exports = {
+    Registries
+}
