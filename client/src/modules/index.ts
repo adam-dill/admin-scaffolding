@@ -1,9 +1,3 @@
-import SearchModule from './SearchModule';
-import SearchResultModule from './SearchResultModule';
-import RegistryDetailsModule from './RegistryDetailsModule';
-
-export { 
-    SearchModule,
-    SearchResultModule,
-    RegistryDetailsModule
-};
+export { default as SearchModule } from './SearchModule';
+export { default as SearchResultModule } from './SearchResultModule';
+export { default as RegistryDetailsModule } from './RegistryDetailsModule';

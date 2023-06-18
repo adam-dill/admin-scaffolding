@@ -1,7 +1,2 @@
-import EventType from "./EventType";
-import RegistryStatus from "./RegistryStatus";
-
-export {
-    EventType,
-    RegistryStatus
-}
+export { default as EventType } from "./EventType";
+export {default as RegistryStatus} from "./RegistryStatus";

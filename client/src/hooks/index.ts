@@ -1,5 +1,1 @@
-import useAsync from "./useAsync";
-
-export {
-    useAsync
-};
+export { default as useAsync } from "./useAsync";

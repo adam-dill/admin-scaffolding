@@ -1,7 +1,2 @@
-import ProductListItem from "./productListItem/ProductListItem";
-import RegistryListItem from "./registryListItem/RegistryListItem";
-
-export {
-    ProductListItem,
-    RegistryListItem,
-}
+export {default as ProductListItem} from "./productListItem/ProductListItem";
+export {default as RegistryListItem} from "./registryListItem/RegistryListItem";

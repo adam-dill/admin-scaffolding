@@ -1,12 +1,4 @@
-import RegistryDto from "./RegistryDto";
-import SearchResultDto from "./SearchResultDto";
-import ProductDto from "./ProductDto";
-import ResponseErrorDto from "./ResponseErrorDto";
-
-
-export type { 
-    RegistryDto, 
-    SearchResultDto, 
-    ResponseErrorDto,
-    ProductDto,
-};
+export type {default as RegistryDto} from "./RegistryDto";
+export type {default as SearchResultDto} from "./SearchResultDto";
+export type {default as ProductDto} from "./ProductDto";
+export type {default as ResponseErrorDto} from "./ResponseErrorDto";
